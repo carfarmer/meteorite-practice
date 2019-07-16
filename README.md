@@ -6,6 +6,6 @@ Requires python3 and requests library.  First install pipenv, then run python sc
 
 ```
     pipenv install
-    pipenv run "python meteor.py"
+    pipenv run "python scripts/meteor.py"
 ```
 
