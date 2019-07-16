@@ -139,3 +139,13 @@ https://pypi.org/
 pip3 install requests
 import requests
 resp = requests.get('http://nasa.gov')
+
+## Managing environment
+# Install pipenv
+pip3 install pipenv
+
+# Run pipenv (in the project dir) and tell it we want a python3 project:
+pipenv --three
+
+# Install modules inside pipenv:
+pipenv install requests
